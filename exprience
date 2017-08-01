@@ -1,0 +1,9 @@
+# Use sql plugin
+gem 'rails_db'	
+# be able to export to excel .xlsx files.
+gem 'axlsx_rails'
+#It will create file config/initializers/rails_db.rb.
+rails g rails_db initializer# /rails/db
+
+#发送邮件
+http://www.yiibai.com/ruby_on_rails/ruby_on_rails_send_email.html
